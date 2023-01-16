@@ -1,0 +1,563 @@
+[2022-06-10T19:42:27.307] [ERROR] default - Ejemplo error
+[2022-06-10T20:30:57.902] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (/home/esteban/Desktop/Backend/Entrega-16/node_modules/express/lib/application.js:618:24)
+    at file:///home/esteban/Desktop/Backend/Entrega-16/src/server.js:76:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2022-06-10T20:31:04.761] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (/home/esteban/Desktop/Backend/Entrega-16/node_modules/express/lib/application.js:618:24)
+    at file:///home/esteban/Desktop/Backend/Entrega-16/src/server.js:76:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2022-06-20T11:13:18.697] [ERROR] default - Error: usuarios validation failed: email: Path `email` is required.
+    at ValidationError.inspect (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (/home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/layouts.js:64:57)
+    at app (/home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/appenders/file.js:82:23)
+    at /home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/appenders/logLevelFilter.js:7:7
+    at /home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>) {
+  errors: {
+    email: ValidatorError: Path `email` is required.
+        at validate (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/schematype.js:1330:13)
+        at SchemaString.SchemaType.doValidate (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/schematype.js:1314:7)
+        at /home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/document.js:2750:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'email',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'usuarios validation failed'
+}
+[2022-06-20T11:13:40.087] [ERROR] default - Error: listen EADDRINUSE: address already in use :::3030
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (/home/esteban/Desktop/Backend/Entrega-18/node_modules/express/lib/application.js:618:24)
+    at file:///home/esteban/Desktop/Backend/Entrega-18/src/server.js:81:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3030
+}
+[2022-06-20T11:14:02.834] [ERROR] default - Error: listen EADDRINUSE: address already in use :::3030
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (/home/esteban/Desktop/Backend/Entrega-18/node_modules/express/lib/application.js:618:24)
+    at file:///home/esteban/Desktop/Backend/Entrega-18/src/server.js:81:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3030
+}
+[2022-06-20T11:15:26.788] [ERROR] default - Error: listen EADDRINUSE: address already in use :::3030
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (/home/esteban/Desktop/Backend/Entrega-18/node_modules/express/lib/application.js:618:24)
+    at file:///home/esteban/Desktop/Backend/Entrega-18/src/server.js:81:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3030
+}
+[2022-06-20T11:15:37.941] [ERROR] default - Error: listen EADDRINUSE: address already in use :::3030
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (/home/esteban/Desktop/Backend/Entrega-18/node_modules/express/lib/application.js:618:24)
+    at file:///home/esteban/Desktop/Backend/Entrega-18/src/server.js:81:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3030
+}
+[2022-06-20T11:16:28.117] [ERROR] default - MongoServerError: E11000 duplicate key error collection: ecommerce.usuarios index: username_1 dup key: { username: "esteban" }
+    at /home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/node_modules/mongodb/lib/operations/insert.js:53:33
+    at /home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection_pool.js:273:25
+    at handleOperationResult (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/node_modules/mongodb/lib/sdam/server.js:327:20)
+    at Connection.onMessage (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:215:9)
+    at MessageStream.<anonymous> (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:63:60)
+    at MessageStream.emit (node:events:390:28)
+    at processIncomingData (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:108:16)
+    at MessageStream._write (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: 'esteban' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2022-06-20T11:26:18.589] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'isModified')
+    at model.<anonymous> (file:///home/esteban/Desktop/Backend/Entrega-18/src/modules/usuarios.modules.js:28:15)
+    at callMiddlewareFunction (/home/esteban/Desktop/Backend/Entrega-18/node_modules/kareem/index.js:471:27)
+    at model.next (/home/esteban/Desktop/Backend/Entrega-18/node_modules/kareem/index.js:58:7)
+    at _next (/home/esteban/Desktop/Backend/Entrega-18/node_modules/kareem/index.js:107:10)
+    at /home/esteban/Desktop/Backend/Entrega-18/node_modules/kareem/index.js:496:30
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2022-06-20T11:27:18.860] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'isModified')
+    at model.<anonymous> (file:///home/esteban/Desktop/Backend/Entrega-18/src/modules/usuarios.modules.js:28:14)
+    at callMiddlewareFunction (/home/esteban/Desktop/Backend/Entrega-18/node_modules/kareem/index.js:471:27)
+    at model.next (/home/esteban/Desktop/Backend/Entrega-18/node_modules/kareem/index.js:58:7)
+    at _next (/home/esteban/Desktop/Backend/Entrega-18/node_modules/kareem/index.js:107:10)
+    at /home/esteban/Desktop/Backend/Entrega-18/node_modules/kareem/index.js:496:30
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2022-06-20T11:28:08.989] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'isModified')
+    at model.<anonymous> (file:///home/esteban/Desktop/Backend/Entrega-18/src/modules/usuarios.modules.js:28:14)
+    at callMiddlewareFunction (/home/esteban/Desktop/Backend/Entrega-18/node_modules/kareem/index.js:471:27)
+    at model.next (/home/esteban/Desktop/Backend/Entrega-18/node_modules/kareem/index.js:58:7)
+    at _next (/home/esteban/Desktop/Backend/Entrega-18/node_modules/kareem/index.js:107:10)
+    at /home/esteban/Desktop/Backend/Entrega-18/node_modules/kareem/index.js:496:30
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2022-06-20T11:42:57.193] [ERROR] default - ObjectParameterError: Parameter "filter" to findOne() must be an object, got esteban3
+    at model.Query.Query.findOne (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/query.js:2553:16)
+    at Function.findOne (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/model.js:2271:13)
+    at UsuarioDao.loginUser (file:///home/esteban/Desktop/Backend/Entrega-18/src/dao/UsuarioDao.js:20:46)
+    at file:///home/esteban/Desktop/Backend/Entrega-18/src/routes/user.js:30:31
+    at Layer.handle [as handle_request] (/home/esteban/Desktop/Backend/Entrega-18/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/esteban/Desktop/Backend/Entrega-18/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/esteban/Desktop/Backend/Entrega-18/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/esteban/Desktop/Backend/Entrega-18/node_modules/express/lib/router/layer.js:95:5)
+    at /home/esteban/Desktop/Backend/Entrega-18/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/esteban/Desktop/Backend/Entrega-18/node_modules/express/lib/router/index.js:341:12)
+[2022-06-20T11:45:21.928] [ERROR] default - TypeError: UsuariosModel.comparePassword is not a function
+    at UsuarioDao.loginUser (file:///home/esteban/Desktop/Backend/Entrega-18/src/dao/UsuarioDao.js:24:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///home/esteban/Desktop/Backend/Entrega-18/src/routes/user.js:30:17
+[2022-06-20T11:46:28.291] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'comparePassword')
+    at UsuarioDao.loginUser (file:///home/esteban/Desktop/Backend/Entrega-18/src/dao/UsuarioDao.js:24:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///home/esteban/Desktop/Backend/Entrega-18/src/routes/user.js:30:17
+[2022-06-20T12:12:19.907] [ERROR] default - TypeError: Cannot read properties of null (reading 'comparePassword')
+    at UsuarioDao.loginUser (file:///home/esteban/Desktop/Backend/Entrega-18/src/dao/UsuarioDao.js:24:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///home/esteban/Desktop/Backend/Entrega-18/src/routes/user.js:35:24
+[2022-06-20T12:26:36.018] [ERROR] default - TypeError: Cannot read properties of null (reading 'comparePassword')
+    at UsuarioDao.loginUser (file:///home/esteban/Desktop/Backend/Entrega-18/src/dao/UsuarioDao.js:25:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///home/esteban/Desktop/Backend/Entrega-18/src/routes/user.js:35:24
+[2022-06-20T12:34:21.427] [ERROR] default - TypeError: user.comparePassword is not a function
+    at UsuarioDao.loginUser (file:///home/esteban/Desktop/Backend/Entrega-18/src/dao/UsuarioDao.js:25:22)
+    at file:///home/esteban/Desktop/Backend/Entrega-18/src/routes/user.js:35:38
+    at Layer.handle [as handle_request] (/home/esteban/Desktop/Backend/Entrega-18/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/esteban/Desktop/Backend/Entrega-18/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/esteban/Desktop/Backend/Entrega-18/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/esteban/Desktop/Backend/Entrega-18/node_modules/express/lib/router/layer.js:95:5)
+    at /home/esteban/Desktop/Backend/Entrega-18/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/esteban/Desktop/Backend/Entrega-18/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/esteban/Desktop/Backend/Entrega-18/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/esteban/Desktop/Backend/Entrega-18/node_modules/express/lib/router/index.js:174:3)
+[2022-06-20T13:29:48.916] [ERROR] default - Error: usuarios validation failed: password: Path `password` is required., username: Path `username` is required.
+    at ValidationError.inspect (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (/home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/layouts.js:64:57)
+    at app (/home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/appenders/file.js:82:23)
+    at /home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/appenders/logLevelFilter.js:7:7
+    at /home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>) {
+  errors: {
+    password: ValidatorError: Path `password` is required.
+        at validate (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/schematype.js:1330:13)
+        at SchemaString.SchemaType.doValidate (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/schematype.js:1314:7)
+        at /home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/document.js:2750:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'password',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    username: ValidatorError: Path `username` is required.
+        at validate (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/schematype.js:1330:13)
+        at SchemaString.SchemaType.doValidate (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/schematype.js:1314:7)
+        at /home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/document.js:2750:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'username',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'usuarios validation failed'
+}
+[2022-06-20T13:30:35.418] [ERROR] default - Error: usuarios validation failed: password: Path `password` is required., username: Path `username` is required.
+    at ValidationError.inspect (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (/home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/layouts.js:64:57)
+    at app (/home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/appenders/file.js:82:23)
+    at /home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/appenders/logLevelFilter.js:7:7
+    at /home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>) {
+  errors: {
+    password: ValidatorError: Path `password` is required.
+        at validate (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/schematype.js:1330:13)
+        at SchemaString.SchemaType.doValidate (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/schematype.js:1314:7)
+        at /home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/document.js:2750:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'password',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    username: ValidatorError: Path `username` is required.
+        at validate (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/schematype.js:1330:13)
+        at SchemaString.SchemaType.doValidate (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/schematype.js:1314:7)
+        at /home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/document.js:2750:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'username',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'usuarios validation failed'
+}
+[2022-06-20T13:32:04.450] [ERROR] default - Error: usuarios validation failed: password: Path `password` is required., username: Path `username` is required.
+    at ValidationError.inspect (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (/home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/layouts.js:64:57)
+    at app (/home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/appenders/file.js:82:23)
+    at /home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/appenders/logLevelFilter.js:7:7
+    at /home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>) {
+  errors: {
+    password: ValidatorError: Path `password` is required.
+        at validate (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/schematype.js:1330:13)
+        at SchemaString.SchemaType.doValidate (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/schematype.js:1314:7)
+        at /home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/document.js:2750:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'password',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    username: ValidatorError: Path `username` is required.
+        at validate (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/schematype.js:1330:13)
+        at SchemaString.SchemaType.doValidate (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/schematype.js:1314:7)
+        at /home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/document.js:2750:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'username',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'usuarios validation failed'
+}
+[2022-06-20T13:34:11.809] [ERROR] default - Error: usuarios validation failed: password: Path `password` is required.
+    at ValidationError.inspect (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/error/validation.js:48:26)
+    at formatValue (node:internal/util/inspect:763:19)
+    at inspect (node:internal/util/inspect:340:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2006:40)
+    at Object.format (node:internal/util/inspect:1880:10)
+    at basicLayout (/home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/layouts.js:64:57)
+    at app (/home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/appenders/file.js:82:23)
+    at /home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/appenders/logLevelFilter.js:7:7
+    at /home/esteban/Desktop/Backend/Entrega-18/node_modules/log4js/lib/log4js.js:43:5
+    at Array.forEach (<anonymous>) {
+  errors: {
+    password: ValidatorError: Path `password` is required.
+        at validate (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/schematype.js:1330:13)
+        at SchemaString.SchemaType.doValidate (/home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/schematype.js:1314:7)
+        at /home/esteban/Desktop/Backend/Entrega-18/node_modules/mongoose/lib/document.js:2750:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'password',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'usuarios validation failed'
+}
+[2022-06-20T14:29:14.335] [ERROR] default - Error: Invalid login: 534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbu
+534-5.7.14 pboX8HVadJ1lM-NAdcVRuL9IopwB5RLObczLcSoXZY9c3AwzuK9vGRVCaBuV_VRrpNsZg
+534-5.7.14 yNistM5BYZtqWmiXXoEOSiTC2H63k59NeJui3h7n47LgN9S8OByiJdcl1zLJ5-dj>
+534-5.7.14 Please log in via your web browser and then try again.
+534-5.7.14  Learn more at
+534 5.7.14  https://support.google.com/mail/answer/78754 v36-20020a056830092400b0060bffcb1ecesm7890259ott.78 - gsmtp
+    at SMTPConnection._formatError (/home/esteban/Desktop/Backend/Entrega-18/node_modules/nodemailer/lib/smtp-connection/index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (/home/esteban/Desktop/Backend/Entrega-18/node_modules/nodemailer/lib/smtp-connection/index.js:1536:34)
+    at SMTPConnection.<anonymous> (/home/esteban/Desktop/Backend/Entrega-18/node_modules/nodemailer/lib/smtp-connection/index.js:540:26)
+    at SMTPConnection._processResponse (/home/esteban/Desktop/Backend/Entrega-18/node_modules/nodemailer/lib/smtp-connection/index.js:947:20)
+    at SMTPConnection._onData (/home/esteban/Desktop/Backend/Entrega-18/node_modules/nodemailer/lib/smtp-connection/index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/esteban/Desktop/Backend/Entrega-18/node_modules/nodemailer/lib/smtp-connection/index.js:189:44)
+    at TLSSocket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbu\n' +
+    '534-5.7.14 pboX8HVadJ1lM-NAdcVRuL9IopwB5RLObczLcSoXZY9c3AwzuK9vGRVCaBuV_VRrpNsZg\n' +
+    '534-5.7.14 yNistM5BYZtqWmiXXoEOSiTC2H63k59NeJui3h7n47LgN9S8OByiJdcl1zLJ5-dj>\n' +
+    '534-5.7.14 Please log in via your web browser and then try again.\n' +
+    '534-5.7.14  Learn more at\n' +
+    '534 5.7.14  https://support.google.com/mail/answer/78754 v36-20020a056830092400b0060bffcb1ecesm7890259ott.78 - gsmtp',
+  responseCode: 534,
+  command: 'AUTH PLAIN'
+}
+[2023-01-16T18:03:12.921] [ERROR] default - ⛔ Error al conectarse a MongoDB
+[2023-01-16T18:04:20.535] [ERROR] default - ⛔ Error al conectarse a MongoDB
+[2023-01-16T18:11:01.829] [ERROR] default - Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor k18-20020a05680808d200b0035a921f2093sm13395485oij.20 - gsmtp
+    at SMTPConnection._formatError (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\nodemailer\lib\smtp-connection\index.js:1536:34)
+    at SMTPConnection.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\nodemailer\lib\smtp-connection\index.js:540:26)
+    at SMTPConnection._processResponse (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at SMTPConnection._onSocketData (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\nodemailer\lib\smtp-connection\index.js:189:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10) {
+  code: 'EAUTH',
+  response: '534-5.7.9 Application-specific password required. Learn more at\n' +
+    '534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor k18-20020a05680808d200b0035a921f2093sm13395485oij.20 - gsmtp',
+  responseCode: 534,
+  command: 'AUTH PLAIN'
+}
+[2023-01-16T18:26:36.734] [ERROR] default - MongoServerError: E11000 duplicate key error collection: estebandem.usuarios index: username_1 dup key: { username: "lautarito" }
+    at C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:53:33
+    at C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:327:20)
+    at Connection.onMessage (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:215:9)
+    at MessageStream.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:63:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: 'lautarito' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-01-16T18:26:52.017] [ERROR] default - Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor ce6-20020a056830628600b00670679748f9sm15801231otb.49 - gsmtp
+    at SMTPConnection._formatError (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\nodemailer\lib\smtp-connection\index.js:1536:34)
+    at SMTPConnection.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\nodemailer\lib\smtp-connection\index.js:540:26)
+    at SMTPConnection._processResponse (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at SMTPConnection._onSocketData (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\nodemailer\lib\smtp-connection\index.js:189:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10) {
+  code: 'EAUTH',
+  response: '534-5.7.9 Application-specific password required. Learn more at\n' +
+    '534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor ce6-20020a056830628600b00670679748f9sm15801231otb.49 - gsmtp',
+  responseCode: 534,
+  command: 'AUTH PLAIN'
+}
+[2023-01-16T18:45:46.456] [ERROR] default - Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor r132-20020acaf38a000000b003539686cb7bsm13396167oih.53 - gsmtp
+    at SMTPConnection._formatError (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\nodemailer\lib\smtp-connection\index.js:1536:34)
+    at SMTPConnection.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\nodemailer\lib\smtp-connection\index.js:540:26)
+    at SMTPConnection._processResponse (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at SMTPConnection._onSocketData (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\nodemailer\lib\smtp-connection\index.js:189:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10) {
+  code: 'EAUTH',
+  response: '534-5.7.9 Application-specific password required. Learn more at\n' +
+    '534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor r132-20020acaf38a000000b003539686cb7bsm13396167oih.53 - gsmtp',
+  responseCode: 534,
+  command: 'AUTH PLAIN'
+}
+[2023-01-16T18:53:56.344] [ERROR] default - Error: productos validation failed: stock: Path `stock` is required., code: Path `code` is required., description: Path `description` is required., price: Path `price` is required., title: Path `title` is required.
+    at ValidationError.inspect (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\error\validation.js:48:26)
+    at formatValue (node:internal/util/inspect:806:19)
+    at inspect (node:internal/util/inspect:365:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2273:40)
+    at Object.format (node:internal/util/inspect:2130:10)
+    at basicLayout (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\log4js\lib\layouts.js:64:57)
+    at app (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\log4js\lib\appenders\file.js:82:23)
+    at C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\log4js\lib\appenders\logLevelFilter.js:7:7
+    at C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>) {
+  errors: {
+    stock: ValidatorError: Path `stock` is required.
+        at validate (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\schematype.js:1330:13)
+        at SchemaType.doValidate (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\schematype.js:1314:7)
+        at C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\document.js:2750:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'stock',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    code: ValidatorError: Path `code` is required.
+        at validate (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\schematype.js:1330:13)
+        at SchemaType.doValidate (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\schematype.js:1314:7)
+        at C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\document.js:2750:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'code',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    description: ValidatorError: Path `description` is required.
+        at validate (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\schematype.js:1330:13)
+        at SchemaType.doValidate (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\schematype.js:1314:7)
+        at C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\document.js:2750:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    price: ValidatorError: Path `price` is required.
+        at validate (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\schematype.js:1330:13)
+        at SchemaType.doValidate (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\schematype.js:1314:7)
+        at C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\document.js:2750:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'price',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    title: ValidatorError: Path `title` is required.
+        at validate (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\schematype.js:1330:13)
+        at SchemaType.doValidate (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\schematype.js:1314:7)
+        at C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\document.js:2750:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'title',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'productos validation failed'
+}
+[2023-01-16T18:57:51.996] [ERROR] default - CastError: Cast to ObjectId failed for value "63c5c843d+" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\query.js:4715:21)
+    at Query.then (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\query.js:4814:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  messageFormat: undefined,
+  stringValue: '"63c5c843d+"',
+  kind: 'ObjectId',
+  value: '63c5c843d+',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at SchemaType.applySetters (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\schematype.js:1189:12)
+      at SchemaType._castForQuery (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\schematype.js:1623:15)
+      at SchemaType.castForQuery (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\schematype.js:1613:15)
+      at SchemaType.castForQueryWrapper (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\cast.js:344:32)
+      at Query.cast (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2023-01-16T18:58:42.870] [ERROR] default - MongoServerError: E11000 duplicate key error collection: terceraEntrega.productos index: code_1 dup key: { code: "00111" }
+    at C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:53:33
+    at C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:327:20)
+    at Connection.onMessage (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:215:9)
+    at MessageStream.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:63:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\Usuario\Desktop\Coder\Backend\desafios-coder (Esteban Dem)\Entrega-18\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { code: 1 },
+  keyValue: { code: '00111' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
