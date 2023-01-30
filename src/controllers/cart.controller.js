@@ -7,7 +7,7 @@ export async function create(req, res) {
     const newCart = await carritoService.createCart();
 
     newCart
-        ? res.status(200).json({"success": "Product added with ID " + newCart._id})
+        ? res.status(200).json({"success": "Cart added with ID " + newCart._id})
         : res.status(500).json({"error": "there was an error"})
 }
 
@@ -28,6 +28,7 @@ export async function addProduct(req, res) {
 
     if (productExists) {
         await carritoService.saveProductToCart(id, body)
+        res.status(200).json({"success": "product added to cart successfully"})
     } else {
         res.status(404).json({"error": "product not found"});
     }
